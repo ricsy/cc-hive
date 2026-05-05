@@ -1,0 +1,38 @@
+{
+  "name": "cc-hive",
+  "type": "module",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.33.1",
+  "description": "Claude Code plugin marketplace - curated collection of practical plugins",
+  "author": "ricsy",
+  "license": "MIT",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "plugins",
+    "marketplace",
+    "awesome"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "prepare": "pnpm install -g pre-commit && pre-commit install",
+    "lint": "npm-run-all2 lint:*",
+    "lint:ts": "eslint **/*.ts --fix",
+    "test": "vitest",
+    "build": "tsup",
+    "build:watch": "tsup --watch"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^8.2.0",
+    "@types/node": "^25.6.0",
+    "eslint": "^10.3.0",
+    "jiti": "^2.6.1",
+    "npm-run-all2": "^8.0.4",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.5"
+  }
+}

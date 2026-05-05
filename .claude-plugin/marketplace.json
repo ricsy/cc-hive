@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "cc-hive",
+  "version": "1.0.0",
+  "description": "Claude Code Curated collection of practical plugins",
+  "owner": {
+    "name": "ricsy"
+  },
+  "plugins": [
+    {
+      "name": "claude-the-one",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ricsy/claude-the-one.git"
+      }
+    },
+    {
+      "name": "context-mode",
+      "source": {
+        "source": "github",
+        "repo": "mksglu/context-mode"
+      }
+    },
+    {
+      "name": "everything-claude-code",
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/everything-claude-code"
+      }
+    },
+    {
+      "name": "oh-my-claudecode",
+      "source": {
+        "source": "github",
+        "repo": "Yeachan-Heo/oh-my-claudecode"
+      }
+    },
+    {
+      "name": "starship-claude",
+      "source": {
+        "source": "github",
+        "repo": "martinemde/starship-claude"
+      }
+    },
+    {
+      "name": "superpowers",
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers"
+      }
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "source": {
+        "source": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+      }
+    },
+    {
+      "name": "typescript-lsp",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official"
+      }
+    },
+    {
+      "name": "pyright-lsp",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official"
+      }
+    }
+  ],
+  "allowCrossMarketplaceDependenciesOn": [
+    "anthropics/claude-plugins-official",
+    "anthropics/skills",
+    "https://github.com/affaan-m/everything-claude-code",
+    "https://github.com/Yeachan-Heo/oh-my-claudecode",
+    "nextlevelbuilder/ui-ux-pro-max-skill",
+    "obra/superpowers-marketplace",
+    "martinemde/starship-claude",
+    "mksglu/context-mode"
+  ]
+}
