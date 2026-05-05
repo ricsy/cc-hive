@@ -17,7 +17,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "prepare": "pnpm install -g pre-commit && pre-commit install",
+    "prepare": "pip install pre-commit && pre-commit install",
     "lint": "npm-run-all2 lint:*",
     "lint:ts": "eslint **/*.ts --fix",
     "test": "vitest",
